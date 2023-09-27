@@ -3,7 +3,7 @@ import pandas as pd
 import altair as alt
 
 # Load the CSV file
-csv_file = r'C:\Users\micha\OneDrive\Desktop\Projects\Web Scrape Practice\ScrapedCSV\Scraped\AI_Zoopla\join\output\blog_viz.csv'
+csv_file = 'data/blog_viz.csv'
 data = pd.read_csv(csv_file)
 
 # Rename columns for easier reference
